@@ -26,7 +26,9 @@ jobs:
 
       - name: Helm Repo Update
         working-directory: charts
-        run: helm repo update
+        run: |
+          helm repo add bitnami https://charts.bitnami.com/bitnami
+          helm repo update
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.2.1
