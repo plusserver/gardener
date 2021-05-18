@@ -1,6 +1,0 @@
-{{- if semverCompare ">= 1.16" .Capabilities.KubeVersion.GitVersion }}
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: kubernetes-dashboard
-{{- end }}
