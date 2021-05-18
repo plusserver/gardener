@@ -1,8 +1,0 @@
-trustDomain: cluster.local
-image: to-be-injected-by-imagevector
-labels:
-  app: istiod
-  istio: pilot
-deployNamespace: false
-ports:
-  https: 10250

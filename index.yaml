@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  controlplane:
+  - apiVersion: v1
+    created: "2021-05-18T09:44:13.899883467Z"
+    description: A Helm chart to deploy the Gardener controlplane (API server, controller-manager,
+      scheduler, admission-controller)
+    digest: 93417ecf1b696ee32fb1a93600ccb17826658d13abdde766c78baabb72287a59
+    name: controlplane
+    urls:
+    - https://github.com/plusserver/gardener/releases/download/controlplane-0.1.0/controlplane-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-05-18T09:44:13.899896567Z"
